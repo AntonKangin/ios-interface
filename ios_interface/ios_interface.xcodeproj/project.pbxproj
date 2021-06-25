@@ -13,6 +13,10 @@
 		F49719A52682449700A4C2AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49719A32682449700A4C2AC /* Main.storyboard */; };
 		F49719A72682449700A4C2AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F49719A62682449700A4C2AC /* Assets.xcassets */; };
 		F49719AA2682449700A4C2AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F49719A82682449700A4C2AC /* LaunchScreen.storyboard */; };
+		F49719B22682491000A4C2AC /* ProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F49719B12682491000A4C2AC /* ProfileView.xib */; };
+		F49719B426824A1000A4C2AC /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F49719B326824A1000A4C2AC /* ProfileView.swift */; };
+		F4FD91BA26824FFB00C4DD43 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FD91B926824FFB00C4DD43 /* Profile.storyboard */; };
+		F4FD91BC2682502F00C4DD43 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FD91BB2682502F00C4DD43 /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		F49719A62682449700A4C2AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F49719A92682449700A4C2AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F49719AB2682449700A4C2AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F49719B12682491000A4C2AC /* ProfileView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileView.xib; sourceTree = "<group>"; };
+		F49719B326824A1000A4C2AC /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F4FD91B926824FFB00C4DD43 /* Profile.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		F4FD91BB2682502F00C4DD43 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +71,20 @@
 				F49719A62682449700A4C2AC /* Assets.xcassets */,
 				F49719A82682449700A4C2AC /* LaunchScreen.storyboard */,
 				F49719AB2682449700A4C2AC /* Info.plist */,
+				F49719B526824A1D00A4C2AC /* ProfileView */,
 			);
 			path = ios_interface;
+			sourceTree = "<group>";
+		};
+		F49719B526824A1D00A4C2AC /* ProfileView */ = {
+			isa = PBXGroup;
+			children = (
+				F49719B12682491000A4C2AC /* ProfileView.xib */,
+				F49719B326824A1000A4C2AC /* ProfileView.swift */,
+				F4FD91B926824FFB00C4DD43 /* Profile.storyboard */,
+				F4FD91BB2682502F00C4DD43 /* ProfileViewController.swift */,
+			);
+			path = ProfileView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +144,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49719B22682491000A4C2AC /* ProfileView.xib in Resources */,
 				F49719AA2682449700A4C2AC /* LaunchScreen.storyboard in Resources */,
+				F4FD91BA26824FFB00C4DD43 /* Profile.storyboard in Resources */,
 				F49719A72682449700A4C2AC /* Assets.xcassets in Resources */,
 				F49719A52682449700A4C2AC /* Main.storyboard in Resources */,
 			);
@@ -137,7 +159,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F49719B426824A1000A4C2AC /* ProfileView.swift in Sources */,
 				F49719A22682449700A4C2AC /* ViewController.swift in Sources */,
+				F4FD91BC2682502F00C4DD43 /* ProfileViewController.swift in Sources */,
 				F497199E2682449700A4C2AC /* AppDelegate.swift in Sources */,
 				F49719A02682449700A4C2AC /* SceneDelegate.swift in Sources */,
 			);
